@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<employee id="1">
+    <address>
+        <city>saharanpur</city>
+        <state>up</state>
+        <zip>247001</zip>
+    </address>
+    <firstName>kunal</firstName>
+    <lastName>juneja</lastName>
+</employee>
