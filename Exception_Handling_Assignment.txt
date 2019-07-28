@@ -1,0 +1,25 @@
+Question:- Is there any way to "get around" the strict restrictions placed on methods by the throws clause?
+
+Answer:-   Yes. Since throws keyword is only used to declare checked exceptions, what we can do is to create a custom
+	   exception which extends runtime exception class and since it is unchecked and can be thrown from anywhere we 
+	   want we can get rid of the throws keyword.
+
+
+
+Question:- Differences between exceptions, errors, and runtime exceptions.
+
+Answer:-   Checked Exception:
+	   * Exceptions that are checked and handled at compile time.
+	   * subclasses of Exception class.
+	   * eg. IOException, SQLException .
+		
+	   Unchecked Exception:
+	   * Exceptions that are not checked and handled at compile time.
+	   * subclasses of runtime exception class which is a subclass of Exception class.
+	   * eg. ArrayIndexOutOfBoundsException , ArithmeticException, NullPointerException.
+	
+	   Error:
+	   * Exceptions that cannot be checked and handled.
+	   * subclass of throwable class.
+	   * eg. OutOfMemoryError, VirtualMachineError, AssertionError.	
+	
