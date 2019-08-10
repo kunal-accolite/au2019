@@ -1,0 +1,3 @@
+<div *ngFor="let d of deptarray">
+    <a (click) = "getDetails(d)"> {{d.id}}  &nbsp;&nbsp;  {{d.name}}</a><br> <div><button (click) = deleteDepartment(d)>Delete</button></div><br>
+</div>

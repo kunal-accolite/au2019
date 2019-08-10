@@ -1,0 +1,10 @@
+<div>
+<div *ngFor="let e of emparray">
+    <a (click) = "getDetails(e)"> {{e.id}}  &nbsp;&nbsp;  {{e.name}}</a><br> <br>
+ </div>
+
+ <div *ngIf = "!(_router.substring(1) == 'todo')">
+        <p>EmployeeName : {{emp.name}}<br>Country : {{emp.country}}<br>Birthday : {{emp.birthday}}</p>
+
+     <div>
+</div>
